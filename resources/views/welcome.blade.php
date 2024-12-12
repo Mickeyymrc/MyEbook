@@ -86,10 +86,9 @@
                   </h1>
 
                   <p class="home__description">
-                    Trouvez les meilleurs e-books de votre favori
+                    Trouvez les meilleurs livres de votre favori
                     écrivains, explorez des centaines de livres avec tous les
-                    catégories possibles, profitez de
-                    50% de réduction et bien plus encore.
+                    catégories possibles.
                   </p>
 
 
@@ -120,7 +119,7 @@
          </section>
 
          <!--==================== SERVICES ====================-->
-         <section class="services section">
+         {{--  <section class="services section">
             <div class="services__container container grid">
                <article class="services__card">
                   <i class="ri-truck-line"></i>
@@ -140,10 +139,10 @@
                   <p class="services__description">Appelez-nous à tout moment</p>
                </article>
             </div>
-         </section>
+         </section>  --}}
 
          <!--==================== FEATURED ====================-->
-         <section class="featured section" id="featured">
+         {{--  <section class="featured section" id="featured">
             <h2 class="section__title">
                                Livres en vedette
 
@@ -154,10 +153,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-1.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -173,10 +168,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-2.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -192,10 +183,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-3.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -211,10 +198,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-4.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -231,11 +214,6 @@
                         <img src="{{asset('img/book-5.png')}}" alt="image" class="featured__img">
 
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
-
 
                         <button class="button">Ajouter au panier</button>
                         <div class="featured__actions">
@@ -250,10 +228,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-6.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">FLivre en vedetteeatured Book</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -269,10 +243,7 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-7.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
+
 
 
                         <button class="button">Ajouter au panier</button>
@@ -288,10 +259,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-8.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -307,10 +274,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-9.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette</h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -326,10 +289,6 @@
                      <article class="featured__card swiper-slide">
                         <img src="{{asset('img/book-10.png')}}" alt="image" class="featured__img">
                         <h2 class="featured__title">Livre en vedette/h2>
-                        <div class="featured__prices">
-                           <span class="featured__discount">$11.99</span>
-                           <span class="featured__price">$19.99</span>
-                        </div>
 
 
                         <button class="button">Ajouter au panier</button>
@@ -352,22 +311,16 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section>  --}}
 
          <!--==================== DISCOUNT ====================-->
          <section class="discount section" id="discount">
             <div class="discount__container container grid">
                <div class="discount__data">
                   <h2 class="discount__title section__title">
-                  Jusqu’à 50% de réduction
+                  Téléchargez des livres sans limite !!
                   </h2>
 
-                  <p class="discount__description">
-                    Profitez des jours de réduction que nous
-                    avons pour vous, achetez des livres de votre
-                    écrivains, plus vous achetez, plus les
-                    réductions augmenteront.
-                  </p>
 
 
                </div>
@@ -393,10 +346,6 @@
 
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -412,10 +361,6 @@
                         <img src="{{asset('img/book-2.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -433,10 +378,7 @@
 
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -452,10 +394,6 @@
                         <img src="{{asset('img/book-4.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -471,10 +409,6 @@
                         <img src="{{asset('img/book-5.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -490,10 +424,7 @@
                         <img src="{{asset('img/book-6.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -509,10 +440,7 @@
                         <img src="{{asset('img/book-7.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -530,10 +458,7 @@
 
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -549,10 +474,7 @@
                         <img src="{{asset('img/book-9.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -568,10 +490,7 @@
                         <img src="{{asset('img/book-10.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -592,10 +511,7 @@
 
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -611,10 +527,7 @@
                         <img src="{{asset('img/book-9.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -630,10 +543,6 @@
                         <img src="{{asset('img/book-8.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -649,10 +558,6 @@
                         <img src="{{asset('img/book-7.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -668,10 +573,7 @@
                         <img src="{{asset('img/book-6.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -687,10 +589,7 @@
                         <img src="{{asset('img/book-5.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -706,10 +605,7 @@
                         <img src="{{asset('img/book-4.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -725,10 +621,7 @@
                         <img src="{{asset('img/book-3.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -744,10 +637,7 @@
                         <img src="{{asset('img/book-2.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
+
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -763,10 +653,6 @@
                         <img src="{{asset('img/book-1.png')}}" alt="image" class="new__image">
                         <div>
                            <h2 class="new__title">Nouveau livre</h2>
-                           <div class="new__prices">
-                              <span class="new__discount">$7.99</span>
-                              <span class="new__price">$14.99</span>
-                           </div>
 
                            <div class="new__stars">
                               <i class="ri-star-fill"></i>
@@ -811,7 +697,7 @@
          <!--==================== TESTIMONIAL ====================-->
          <section class="testimonial section" id="testimonial">
             <h2 class="section__title">
-               Avis des clients
+               Avis des utilisateurs
             </h2>
             <div class="testimonial__container container">
                <div class="testimonial__swiper swiper">
@@ -820,8 +706,7 @@
                         <img src="{{asset('img/testimonial-perfil-1.png')}}" alt="image" class="testimonial__img">
                         <h2 class="testimonial__title">Rial Loz</h2>
                         <p class="testimonial__description">
-                            Le meilleur site pour acheter des livres, l’achat
-                            est très facile à faire et offre de grandes remises.
+                           Le meilleur site pour télécharger des livres gratuitement.
                         </p>
 
                         <div class="testimonial__stars">
@@ -839,8 +724,7 @@
 
                         <h2 class="testimonial__title">Rial Loz</h2>
                         <p class="testimonial__description">
-                            Le meilleur site pour acheter des livres, l’achat
-                            est très facile à faire et offre de grandes remises.
+                            Le meilleur site pour télécharger des livres gratuitement.
                         </p>
 
                         <div class="testimonial__stars">
@@ -857,8 +741,7 @@
                         <img src="{{asset('img/testimonial-perfil-3.png')}}" alt="image" class="testimonial__img">
                         <h2 class="testimonial__title">Rial Loz</h2>
                         <p class="testimonial__description">
-                            Le meilleur site pour acheter des livres, l’achat
-                            est très facile à faire et offre de grandes remises.
+                            Le meilleur site pour télécharger des livres gratuitement.
                         </p>
 
                         <div class="testimonial__stars">
@@ -875,8 +758,7 @@
                         <img src="{{asset('img/testimonial-perfil-4.png')}}" alt="image" class="testimonial__img">
                         <h2 class="testimonial__title">Rial Loz</h2>
                         <p class="testimonial__description">
-                            Le meilleur site pour acheter des livres, l’achat
-                            est très facile à faire et offre de grandes remises.
+                            Le meilleur site pour télécharger des livres gratuitement.
                         </p>
 
                         <div class="testimonial__stars">
