@@ -1,7 +1,14 @@
 services:
   - type: web
-    name: my-laravel-app
-    env: php
-    buildCommand: "composer install --no-dev --optimize-autoloader"
-    startCommand: "php artisan serve --host 0.0.0.0 --port 10000"
-    plan: free
+    name: myebook
+    runtime: php
+    buildCommand: |
+      composer install --no-dev --optimize-autoloader
+      php artisan optimize
+      php artisan migrate
+    startCommand: php artisan serve
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
