@@ -1,32 +1,25 @@
-# Utiliser une image PHP officielle avec PHP 8.2
+# Utiliser une image avec PHP et Composer préinstallés
 FROM php:8.2-cli
 
-# Installer les dépendances nécessaires (comme curl, git, unzip, etc.)
+# Installer les extensions nécessaires
 RUN apt-get update && apt-get install -y \
-    curl \
-    git \
-    unzip \
-    libpng-dev \
-    libjpeg-dev \
-    libfreetype6-dev \
-    libzip-dev \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd zip pdo pdo_mysql mbstring xml
+    curl git unzip \
+    && docker-php-ext-install pdo pdo_mysql mbstring zip
 
-# Télécharger et installer Composer
+# Installer Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Définir le répertoire de travail à /var/www/html (répertoire par défaut pour les projets Laravel)
+# Définir le répertoire de travail
 WORKDIR /var/www/html
 
-# Copier tous les fichiers de votre projet dans le conteneur
+# Copier les fichiers de votre projet
 COPY . .
 
 # Installer les dépendances de Composer
 RUN composer install --no-dev --optimize-autoloader
 
-# Exposer le port pour l'application Laravel
-EXPOSE 10000
+# Exposer le port Laravel
+EXPOSE 8000
 
-# Lancer le serveur Laravel avec artisan
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=10000"]
+# Commande par défaut
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
