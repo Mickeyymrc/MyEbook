@@ -45,3 +45,4 @@ class User extends Authenticatable
         ];
     }
 }
+// Ceci est une simple modification pour tester git push
