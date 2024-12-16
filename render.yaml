@@ -1,11 +1,11 @@
 services:
   - type: web
     name: myebook
-    runtime: php
+    runtime: php8.2
     buildCommand: |
       composer install --no-dev --optimize-autoloader
       php artisan optimize
-      php artisan migrate
+      php artisan migrate --force
     startCommand: php artisan serve
     envVars:
       - key: APP_ENV
