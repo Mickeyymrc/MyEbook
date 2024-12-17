@@ -2,9 +2,11 @@
 FROM php:8.2-cli
 
 # Installer les extensions nécessaires
-RUN apt-get update && apt-get install -y \
-    curl git unzip \
-    && docker-php-ext-install pdo pdo_mysql mbstring zip
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl git unzip libzip-dev \
+    && docker-php-ext-install pdo pdo_mysql mbstring zip \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
 
 # Installer Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
